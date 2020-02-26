@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Speech.Synthesis;
 using System.Speech.AudioFormat;
 using System.IO;
@@ -18,7 +17,7 @@ namespace TextToWavExe
         static List<string> InstalledCultures { get; set; }
         static string InputFile { get; set; }
         static string OutputFolder { get; set; }
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             if (args.Length < 2)
                 throw new Exception("Error: Missing parameter(s)!");
@@ -98,7 +97,6 @@ namespace TextToWavExe
                     Directory.CreateDirectory(OutputFolder);
 
                 SpeechSynthesizer.SetOutputToWaveFile(OutputFolder + "/" + Track.Name + ".wav", new SpeechAudioFormatInfo(44100, AudioBitsPerSample.Sixteen, AudioChannel.Mono));
-                //SpeechSynthesizer.SelectVoice(VoiceOverDoc.Voice);
                 SpeechSynthesizer.SpeakSsml(SSML);
                 SpeechSynthesizer.SetOutputToDefaultAudioDevice();
             }
