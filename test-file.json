@@ -1,0 +1,62 @@
+{
+  "audioPath": "C:\\temp01",
+  "voice": "My Voice",
+  "name": "Test File",
+  "text": "How about that!",
+  "tracks": [
+    {
+      "name": "Track 001",
+      "topics": [
+        {
+          "name": "",
+          "contents": [
+            {
+              "narration": "What the world needs about you, is love, sweet love",
+              "subtitles": "",
+              "voice": "IVONA 2 Amy OEM",
+              "volume": 100,
+              "speed": 100,
+              "pitch": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Track 002",
+      "topics": [
+        {
+          "name": "",
+          "contents": [
+            {
+              "narration": "What the world needs about you, is love, sweet love",
+              "subtitles": "",
+              "voice": "IVONA 2 Amy OEM",
+              "volume": 100,
+              "speed": 100,
+              "pitch": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Track 003",
+      "topics": [
+        {
+          "name": "",
+          "contents": [
+            {
+              "narration": "What the world needs about you, is love, sweet love",
+              "subtitles": "",
+              "voice": "IVONA 2 Amy OEM",
+              "volume": 100,
+              "speed": 100,
+              "pitch": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
